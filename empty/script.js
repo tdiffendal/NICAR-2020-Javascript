@@ -50,3 +50,17 @@ var pets = [
 for (i=0; i<3; i++){
 	console.log(pets[i]);
 }
+
+
+//this actually makes something show up!
+document.getElementById('hello').innerHTML = 'Your first front-end Javascript!';
+
+//create new elements in HTML
+var new_element = document.createElement('button')
+new_element.innerHTML = "Let's create a button!"
+document.getElementById('create-button').append
+
+//plug-ins can advance java's abilities
+// popular ones: jquery, datatables, leaflet, D3
+
+//Things to expand on this - put data into a table! Convert a csv into a json and console.log it; create an <input> textbox and display result when user clicks button
